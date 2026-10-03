@@ -117,3 +117,62 @@ ipl-2026-analytic/
 ├── README.md
 └── requirements.txt
 ```
+
+## Installation and Setup
+
+Follow these steps to set up and run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Mohit-web8516/ipl-2026-data-analytics.git
+cd ipl-2026-data-analytics
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activate the Virtual Environment
+
+**Windows (PowerShell):**
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux:**
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the notebooks in the `notebooks/` folder and run the cells to explore the analysis.
+
+### 6. Deactivate the Virtual Environment
+
+When you're finished, run:
+
+```bash
+deactivate
+```
+
+## Conclusion
+
+This project explores IPL 2026 data through data auditing, cleaning, exploratory data analysis, and visualization using Python.
+
+The analysis provides insights into team performance, batting and bowling statistics, scoring patterns, and match outcomes. It also highlights data quality issues that are important to consider when interpreting the results.
+
+The next stage of the project is to develop an interactive Power BI dashboard to present the findings and make the analysis easier to explore.
